@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="username">Username</label> <br />
+        <input
+          type="text"
+          name="username"
+          value="xyz@gmail.com"
+          id="username"
+          placeholder="Enter Username"
+          required
+          disabled
+        />
+      </div>
+      <div>
+        <label for="password">Password</label> <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          required
+        />
+      </div>
+      <div>
+        <p>Gender</p>
+        <input type="radio" value="Male" name="gender" id="male" checked />
+        <label for="male">Male</label><br />
+        <input type="radio" value="Female" name="gender" id="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" value="Others" name="gender" id="others" />
+        <label for="others">Others</label>
+      </div>
+      <div>
+        <p>Select your favorite course:</p>
+        <input type="checkbox" name="course" id="C++" value="C++" />
+        <label for="C++">C++</label> <br />
+        <input type="checkbox" name="course" id="Java" value="Java" checked />
+        <label for="Java">Java</label> <br />
+        <input type="checkbox" name="course" id="Python" value="Python" />
+        <label for="Python">Python</label> <br />
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

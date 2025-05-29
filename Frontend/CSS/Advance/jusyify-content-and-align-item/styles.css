@@ -1,0 +1,31 @@
+#container {
+  height: 600px;
+  width: 600px;
+  background-color: cyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#container div {
+  height: 100px;
+  /* max-height: 500x; */
+  width: 100px;
+}
+
+#div1 {
+  background-color: red;
+}
+
+#div2 {
+  background-color: blue;
+}
+
+#div3 {
+  background-color: maroon;
+}
+/* 
+#div4 {
+  background-color: violet;
+} */

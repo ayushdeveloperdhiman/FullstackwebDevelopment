@@ -1,0 +1,304 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+/* Header */
+#body-header {
+  background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fHww);
+  height: 65vh;
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.horizontal-list li {
+  display: inline;
+  margin: 0px 8px 0px 8px;
+}
+
+.horizontal-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  border-bottom: 2px solid white;
+  color: lightgray;
+}
+
+/* Name and Social Icon */
+.name-social-container {
+  margin-top: 20vh;
+}
+
+#my-name {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+.social-icons li a i {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+.social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+/* Section classes */
+section {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black;
+  height: 500px; */
+  align-items: center;
+}
+
+section:nth-child(2n) {
+  background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+}
+
+.section-heading {
+  width: auto;
+  padding: 20px 10px 10px;
+  font-weight: 400;
+}
+
+.section-heading span {
+  font-size: 40px;
+  color: #2857a4;
+  padding: 10px;
+  /* margin-left: 0.5rem; */
+}
+/* about section */
+
+#about {
+  height: auto;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: -17vh;
+}
+
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 1px 1px 10px 2px lightgray;
+}
+
+#about-para {
+  padding: 10px;
+  width: 70%;
+  text-align: justify;
+  color: gray;
+  line-height: 28px;
+  font-size: 1.1rem;
+  margin: auto;
+}
+
+.text-highlight {
+  color: #2857a4;
+  font-weight: 600;
+}
+
+/* Skills Section */
+
+.skills-display {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill-progress {
+  width: 11rem;
+  height: 2.2rem;
+  background-color: lightgrey;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+  margin: 25px;
+  overflow: hidden;
+}
+
+.skill-progress > div {
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name span {
+  color: white;
+  font-size: 1rem;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Work Experience Section */
+/* Timeline */
+.timeline {
+  border: 2px solid black;
+  width: 75%;
+  position: relative;
+}
+
+.timeline-box {
+  border: 2px solid black;
+  height: 100px;
+  width: 40%;
+  left: 5%;
+  position: relative;
+}
+
+.timeline-box:nth-child(2n) {
+  left: 53%;
+}
+
+.timeline-box:nth-child(2n + 1)::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: red;
+  right: -13.7%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-box:nth-child(2n)::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: red;
+  left: -8.3%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.timeline-divider {
+  position: absolute;
+  height: 75%;
+  width: 0;
+  top: 10%;
+  left: 50%;
+  border: 3px dashed #0096fa6b;
+}
+
+.timeline-traveler {
+  position: sticky;
+  width: 30px;
+  height: 0px;
+  top: 50%;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+/* Education */
+#education {
+  border: 2px solid black;
+  height: 200px;
+  width: auto;
+}
+
+#portfolio {
+  border: 2px solid black;
+  height: 200px;
+  width: auto;
+}
+
+#contact {
+  border: 2px solid black;
+  height: 200px;
+  width: auto;
+}
+
+/* Comman Text Align classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  position: absolute;
+  height: 75%;
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* Setting Background Color */
+.mb-blue {
+  background-color: #285784;
+}
+
+.mb-red {
+  background-color: #f10d0d;
+}
+
+.mb-orange {
+  background-color: #d48e0c;
+}
+
+.mb-green {
+  background-color: #428428;
+}
+
+.mb-voilet {
+  background-color: #842870;
+}
+
+.mb-yellow {
+  background-color: #b4b100;
+}
+/* Percentage Classes */
+.fifty-percent {
+  height: inherit;
+  width: 50%;
+}
+
+.eighty-percent {
+  height: inherit;
+  width: 80%;
+}
+
+.seventy-five-percent {
+  height: inherit;
+  width: 75%;
+}
+
+.sixty-percent {
+  height: inherit;
+  width: 60%;
+}
+
+.sixty-five-percent {
+  height: inherit;
+  width: 65%;
+}

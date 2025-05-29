@@ -1,0 +1,30 @@
+html {
+  font-size: 30px;
+}
+#div1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(14, 37, 243);
+  /* #d68787 */
+  /* rgb(25, 26, 200) */
+  /* rgba(23, 26, 200, 1) */
+  /* hsl(25, 26%, 20%); */
+  /* hsla(25, 26%, 20%, 1) */
+  /* border-width: 6px 8px 10px 12px;
+  border-style: dashed;
+  border-color: red; */
+
+  border: 4px dotted red;
+  border-radius: 5px;
+}
+
+#div2 {
+  height: 4rem;
+  width: 6rem;
+  background-color: red;
+}
+
+#sample-para {
+  border-left: 5px solid red;
+  /* border-radius: 5px; */
+}

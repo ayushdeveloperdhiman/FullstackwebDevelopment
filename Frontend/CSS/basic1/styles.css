@@ -1,0 +1,41 @@
+/* .paragraph {
+  color: blue;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+} */
+
+/* .cursive {
+  font-family: cursive;
+} */
+
+h3,
+p {
+  font-family: sans-serif;
+  color: blueviolet;
+}
+
+/* Nesting in css */
+
+/* li h3 {
+  color: red;
+} */
+
+li #red {
+  color: red;
+}
+
+li .para {
+  color: pink;
+}
+
+/* Pseudo Class */
+
+h1:hover {
+  color: orange;
+}

@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav {
+  background-color: #626f47;
+  height: 65vh;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+  margin: 0px 10px 0px 10px;
+}
+
+.nav li a {
+  color: #f5ecd5;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: lightgray;
+  text-decoration: underline;
+  transition: color 0.5s;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+h1 {
+  text-align: center;
+  color: #626f47;
+}
